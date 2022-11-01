@@ -1,4 +1,4 @@
-# movie-db
+# gprime-actuale-table
 
 ## Project setup
 ```
