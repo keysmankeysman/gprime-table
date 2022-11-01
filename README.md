@@ -1,4 +1,4 @@
-# gprime-actuale-table
+# gprime-actual-table
 
 ## Project setup
 ```
