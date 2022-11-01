@@ -40,14 +40,15 @@ export default {
   data () {
     return {
       sorting: [], 
-      columns: [], 
       items: [], 
       tooltipShow: false,
-      isDisabled: true,
+      isDisabled: true
     }
   },
   props: {
     selectedRow: Object,
+    columns: Array,
+    dataShort: Array
   },
   components: {
     DataTableHeader,
@@ -55,9 +56,8 @@ export default {
     SearchEntityDescription
   },
   created() {
-    this.sorting = dataShort.sorting;
-    this.columns = dataShort.columns;
-    this.items = dataShort.items;
+    this.sorting = this.dataShort.sorting
+    this.items = this.dataShort
   },
 
   methods: {

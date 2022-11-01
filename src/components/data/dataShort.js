@@ -1473,7 +1473,53 @@ const sorting = [
         }
     }
 ];
-    
 
+let aliases = {
+    "id": "Идентификатор",
+    "status": "Статус",
+    "document_type": "Вид документа",
+    "cancellation_reason": "Основание для отмены действия",
+    "doc_name": "Наименование документа",
+    "document_relevancy": "Тип документа",
+    "changing_document": "Во изменение документа",
+    "main_document": "Основной документ",
+    "isogd_service": "Служба ИСОГД",
+    "territory": "Территория",
+    "cadastral_number": "Кадастровый номер",
+    "territory_description": "Описание территории",
+    "registration_number": "Регистрационный номер в ГИСОГД",
+    "registration_date": "Дата регистрации",
+    "data_placement_organ": "Уполномоченный орган, разместивший данные",
+    "sender": "Отправитель",
+    "outgoing_number": "Исх.номер",
+    "sending_date": "Дата отправки",
+    "incoming_number": "Вх.номер",
+    "receiving_date": "Дата поступления",
+    "customer_name": "Заказчик",
+    "develop_reason": "Основание для разработки",
+    "approved_by": "Кем утвержден",
+    "approval_document": "Вид утверждающего документа",
+    "approval_document_number": "№ утверждающего документа",
+    "approval_document_date": "Дата утверждающего документа",
+    "developer": "Разработчик",
+    "development_year": "Год разработки",
+    "registered_by": "Зарегистрировал",
+    "registration_status": "Статус регистрации документа ГД",
+    "changing_doc_cancel_reason": "Основание для отмены действия изменяемого документа",
+    "original_storage_placement": "Место хранения оригинала",
+    "refusal_reasons": "Основания для отказа в регистрации",
+    "oktmo_id": "ОКТМО пользователя, создавшего запись",
+    "created_by": "Служ. Кем создан",
+    "created": "Служ. Дата создания",
+    "updated_by": "Служ. Кем изменен",
+    "updated": "Служ. Дата изменения",
+    "deleted_by": "Служ. Кем удален",
+    "deleted": "Служ. Дата удаления",
+    "objectid": "Сист.ид_арм",
+    "document_type_id": "document_type_id",
+    "territory_id": "territory_id",
+    "object_name": "Наименование",
+    "document_number": "Номер документа"
+}
 
-export default { sorting, columns, items };
+export default { sorting, columns, items, aliases }
